@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff" >
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerChooseClass"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_border3" />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff" >
+    </LinearLayout>
+
+<ListView
+    android:id="@+id/listViewStudents"
+    android:layout_width="wrap_content"
+    android:layout_height="196dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_weight="0.95"
+    android:background="@drawable/bg_border2" />
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff" >
+    </LinearLayout>
+
+
+
+<TextView
+    android:id="@+id/textInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_weight="0.66"
+    android:background="@drawable/bg_border"
+     />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="66dp"
+       android:gravity="center"
+       android:orientation="horizontal" >
+
+       <Button
+           android:id="@+id/btnAddStudent"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/flat_button"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:text="添加学生" />
+
+       <Button
+           android:id="@+id/btnStart"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/flat_button"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:text="开始点名" />
+
+       <Button
+           android:id="@+id/btnSave"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/flat_button"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:text="保存结果" />
+   </LinearLayout>
+
+</LinearLayout>
