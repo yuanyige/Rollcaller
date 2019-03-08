@@ -8,4 +8,4 @@ An Automatic Rollcalling Program
 - read the result from the screen
 
 ## Demo
-<img src="https://github.com/1t4chi/Rollcaller/blob/master/DemoPic/1.JPG"  height="330" width="495">
+<img src="https://github.com/1t4chi/Rollcaller/blob/master/DemoPic/1.JPG"  height="300" width="180">
